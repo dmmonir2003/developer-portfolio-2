@@ -1,0 +1,153 @@
+* {
+    margin: 0;
+    font-family: 'Open Sans',
+        sans-serif;
+    font-family: 'Poppins',
+        sans-serif;
+
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    margin: 0px 100px;
+
+}
+
+.nav-tile {
+    width: 121px;
+    height: 61px;
+    font-size: 45px;
+    margin-top: 60px;
+    margin-left: 50px;
+
+
+}
+
+.first-btn {
+    font-weight: 500;
+    font-size: 15px;
+    color: #FFFFFF;
+    height: 30px;
+    background: #FD6E0A;
+    border-radius: 5px;
+    border-style: none;
+    padding: 5px 20px;
+
+
+}
+
+nav li {
+    list-style: none;
+    margin: 15px;
+}
+
+nav ul {
+    display: flex;
+    align-items: center;
+    margin-top: 60px;
+
+
+
+}
+
+.prime-text {
+    color: #FD6E0A;
+
+}
+
+/* banner styles */
+.banner {
+    display: flex;
+    align-items: center;
+    margin-left: 30px;
+
+
+}
+
+.title1 {
+    color: #474747;
+    font-weight: 600;
+    font-size: 45px;
+}
+
+.title2 {
+    font-weight: 700;
+    font-size: 85px;
+    color: #181818;
+}
+
+.text-1 {
+    font-weight: 400;
+    font-size: 18px;
+    color: #757575;
+    margin-bottom: 20px;
+
+}
+
+.header {
+    background: #FFF8F3;
+    background-image: url(../images/header_bg.png), url(../images/developer.png);
+    background-repeat: no-repeat;
+    background-position: bottom right, left;
+}
+
+.text1 {
+    margin-left: 100px;
+}
+
+.main {
+    max-width: 1260px;
+}
+
+.about {
+    margin: 230px;
+    border-width: 1140;
+    border-radius: 10px;
+    background: #FFF8F3;
+    margin-left: 250px;
+    text-align: center;
+}
+
+
+.title-section {
+    font-weight: 700;
+    font-size: 35px;
+    color: #181818;
+    margin-bottom: 30px;
+
+    padding-top: 50px;
+}
+
+.description-section {
+    font-weight: 400;
+    font-size: 18px;
+    color: #757575;
+    width: 70%;
+
+    padding: 0 100px 150px 100px;
+
+}
+
+.about-info-containar {
+    display: flex;
+    justify-content: space-around;
+
+}
+
+.about-info {
+    padding-bottom: 30px;
+}
+
+.info-title {
+    font-weight: 400;
+    font-size: 20px;
+    color: #757575;
+
+}
+
+.info-description {
+    font-weight: 500;
+    font-size: 20px;
+    color: #474747;
+}
