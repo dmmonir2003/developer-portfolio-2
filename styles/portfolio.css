@@ -110,7 +110,7 @@ nav ul {
 }
 
 
-.title-section {
+.title-section1 {
     font-weight: 700;
     font-size: 35px;
     color: #181818;
@@ -150,4 +150,79 @@ nav ul {
     font-weight: 500;
     font-size: 20px;
     color: #474747;
+}
+
+/* section-styles */
+
+
+
+.title-description {
+    margin-left: 390px;
+    background: #FFFFFF;
+    margin-bottom: 50px;
+}
+
+.what-do-title {
+    font-weight: 700;
+    font-size: 35px;
+    color: #181818;
+    margin-bottom: 30px;
+    margin-left: 170px;
+
+
+}
+
+.what-do-description {
+    font-weight: 400;
+    font-size: 18px;
+    color: #757575;
+    width: 60%;
+
+}
+
+
+
+
+
+.abc {
+    display: flex;
+    gap: 25px;
+    padding-left: 40px;
+    margin-top: 80px;
+    padding-right: 40px;
+
+
+}
+
+.skills-containar {
+    background: #FFFFFF;
+    box-shadow: 0px 6px 50px rgba(0, 0, 0, 0.06);
+    border-radius: 5px;
+    padding: 15px;
+
+}
+
+.skills-title {
+    font-weight: 700;
+    font-size: 20px;
+    color: #181818;
+
+}
+
+.skills-description {
+    font-weight: 400;
+    font-size: 16px;
+    color: #757575;
+    padding-top: 40px;
+    width: 250px;
+    height: 320px;
+}
+
+/* resume styles */
+.resume-title {
+    margin-top: 130px;
+    font-weight: 700;
+    font-size: 35px;
+    color: #181818;
+    text-align: center;
 }
